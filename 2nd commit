@@ -1,0 +1,11 @@
+license_input = input("Enter your license plate: ")
+
+if len(license_input) == 8:
+    if license_input[0].isdigit() or license_input[-1].isdigit():
+        print("Invalid")
+    else:
+        print("Valid")
+    
+
+else:
+    print("Invalid")
